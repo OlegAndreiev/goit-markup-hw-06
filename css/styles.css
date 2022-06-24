@@ -629,6 +629,100 @@ p {
   margin-bottom: 20px;
 }
 
+.subscribe {
+  display: block;
+  margin-left: auto;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscribe-text-area {
+  padding: 15px 16px;
+  margin-right: 12px;
+  min-width: 358px;
+
+  line-height: 1.25;
+  display: block;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+/* .subscribe-text-area:focus::placeholder {
+  opacity: 0;
+} */
+/* .subscribe-text-area:focus {
+  border: red;
+} */
+
+/* .subscribe-text-area:not:(placeholder-shown) {
+  border: 1px solid var(--accent-color);
+} */
+
+.subscribe-button {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  background: var(--accent-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  color: var(--button-text-color);
+  background-color: var(--button-bg-hover-color);
+}
+
+.subscribe-button::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+
+  outline: 1px solid tomato;
+  background-image: url(../images/icons.svg#icon-send);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* Бекдроп */
 
 .backdrop {
@@ -685,6 +779,10 @@ p {
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
+}
+
+.button-close-modal:hover {
+  fill: var(--accent-color);
 }
 
 /* -----------------Портолио-----------------*/
