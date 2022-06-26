@@ -911,9 +911,8 @@ p {
   border-color: var(--accent-color);
 }
 
-.input-check:focus-within + .privacy-text {
-  border: 2px solid #212121;
-  border-color: var(--accent-color);
+.input-check:focus-within + .privacy-text span {
+  border: 2px solid var(--accent-color);
 }
 
 .check-icon {
